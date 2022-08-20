@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<h1 id='title'>Evolution DAO Survey Form</h1>
+		<p id="description">Thank you for taking the time to discuss the evolution of our species.</p>
+
+		<form id="survey-form">
+			<fieldset id='profile'>
+				<label id="name-label" for="name"> Name
+					<input id="name" class="input" type="text" placeholder="Enter your name" required>
+				</label>
+				<label id="email-label" for="email"> Email
+					<input id="email" class="input" type="email" placeholder="Enter your email" required>
+				</label>
+				<label id="number-label" for="number"> Age
+					<input id="number" class="input" type="number" placeholder="Age" min="18" max="150" required>
+				</label>
+				<label for="dropdown">Describe how you feel about the current market cycle?
+					<select id="dropdown" class="input">
+						<option disabled selected>Select current psychological state</option>
+						<option value="optimisim">Optimisim</option>
+						<option value="excitement">Excitement</option>
+						<option value="euphoria">Euphoria</option>
+						<option value="fear">Fear</option>
+						<option value="denial">Denial</option>
+						<option value="panic">Panic</option>
+						<option value="hope">Hope</option>
+					</select>
+				</label>				
+			</fieldset>
+
+			<fieldset id="decentralization">How do you feel about decentralization?
+				<label for="stoked">
+					<input type="radio" id="stoked" name="bigChoice" value="1"/> Stoked
+				</label>
+				<label for="terrified">
+					<input type="radio" id="terrified" name="bigChoice" value="2"/> Terrified
+				</label>
+				<label for="waste">
+					<input type="radio" id="waste" name="bigChoice" value="3"/> Waste of Resources
+				</label>
+				<label for="dropdown2">What is your favorite programming language?
+					<select id="dropdown2" class="input">
+						<option selected disabled>Choose wisely</option>
+						<option value="solidity">Solidity</option>
+						<option value="rust">Rust</option>
+						<option value="javascript">javascript</option>
+						<option value="python">Python</option>
+					</select>
+				</label>
+			</fieldset>
+
+			<fieldset id="interest"> Please select your interests.  <small>(Check all that apply)</small>
+				<label for="AI">
+					<input type="checkbox" name="interest" id="AI" value="artifical-intel"/> Artificial Intelligence
+				</label>
+				<label for="geo">
+					<input type="checkbox" name="interest" id="geo" value="sacred-geometry"/> Sacred Geometry
+				</label>
+				<label for="robo">
+					<input type="checkbox" name="interest" id="robo" value="robotics"/> Robotics
+				</label>
+				<label for="nano">
+					<input type="checkbox" name="interest" id="nano" value="nanotech"/> Nanotechnology
+				</label>
+				<label for="bio">
+					<input type="checkbox" name="interest" id="bio" value="biotech"/> Biotechnology
+				</label>
+				<label for="energy">
+					<input type="checkbox" name="interest" id="energy" value="free-nergy"/> Free Energy
+				</label>
+				<label for="space">
+					<input type="checkbox" name="interest" id="space" value="space-travel"/> Space Travel
+				</label>
+				<label for="harmony">
+					<input type="checkbox" name="interest" id="harmony" value="frequential"/> Frequential Harmonics
+				</label>
+				<label for="cogno">
+					<input type="checkbox" name="interest" id="cogno" value="cognitive"/> Cognitive Science
+				</label>
+				<label for="computing">
+					<input type="checkbox" name="interest" id="computing" value="quantum"/> Quantum Computing
+				</label>
+				<label for="para">
+					<input type="checkbox" name="interest" id="para" value="psychotronics"/> Psychotronics
+				</label>
+			</fieldset>
+
+			<fieldset id="ideas">
+				<label for="shill"> Shill me your favorite project!
+					<textarea id="shill" placeholder="Numbers go up..." rows="5"></textarea>
+				</label>
+			</fieldset> 
+			
+			<input type="submit" value="Submit" id="submit"/>
+
+
+		</form>
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

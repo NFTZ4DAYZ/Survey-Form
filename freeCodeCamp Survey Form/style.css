@@ -1,0 +1,104 @@
+/* GENERAL */
+
+body{
+    width:100vw;
+    margin: 0px;
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, .7)), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3jh33bzyw1wep.cloudfront.net%2Fs3%2FW1siZiIsIjIwMTkvMDcvMzAvMDgvMzIvMzYvNDA1LzIuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweDYzMCMiXV0&f=1&nofb=1);
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+  }
+  
+  form, fieldset, label, select, .input-area, textarea {
+   margin: 0px;
+   padding: 0px;
+  }
+
+  h1, p {
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  p {
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    color: orange;
+    
+  }
+
+  form {
+    width: 80vw;
+    margin: 0px auto;
+    max-width: 45rem;
+    padding: 1.25rem .875rem;
+    background-color: rgba(27, 27, 50, .65);
+    border-radius: 10px;
+    border-style: transparent;
+
+
+  }
+
+  fieldset {
+    border-style: none;
+  }
+
+  label, select, .input, textarea, input[type='submit'] {
+    width: 100%;
+    display: block;
+  }
+
+  label {
+    padding-bottom: .5rem;
+
+  }
+
+  .input, textarea {
+    text-align: left;
+    border-style: none;
+    border-radius: 5px;
+    color: black;
+  }
+  
+
+  /* Touchups */
+  #submit {
+    width: 95%;
+    margin: auto;
+    color:  grey;
+    padding: 0.75rem;
+    margin-bottom: 2rem;
+    background-color: orange;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: .75rem;
+    font-size: 20px;
+  } 
+
+  input, select {
+    margin: .7em 0;
+    padding: .5em 0;
+  }
+
+  #shill, #email, #number, #name, #dropdown, #dropdown2{
+    font-size: 20px;
+    background-color: lightgrey;
+    color: grey;
+  }
+  #shill {
+    margin-top: .7em;
+  }
+
+
+
+
+
+
+
+  
+
+
